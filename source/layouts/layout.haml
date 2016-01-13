@@ -1,0 +1,23 @@
+!!!
+%html
+  %head
+    %title Animations
+    %meta{charset: 'UTF-8'}
+
+    = stylesheet_link_tag 'all'
+    %link{rel: "stylesheet", type: "text/css", href: "//cloud.typography.com/6846252/787664/css/fonts.css"}
+
+    %meta{name: 'description', content:'A page full of animation try outs'}
+    %meta{name: 'keywords', content:'Colorbox, Design, Animation'}
+    %meta{name: 'author', content:'Colorbox Design'}
+
+  %body
+    = partial "partials/header"
+    = partial "partials/animation"
+    / = yield
+
+  -#%script{type:"text/javascript", src:'//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'}
+  -#%script{type:"text/javascript"}
+    -#window.jQuery || document.write("javascripts/jQuery.min.js")
+
+  -#= javascript_include_tag 'all'

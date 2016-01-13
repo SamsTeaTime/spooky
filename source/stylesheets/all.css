@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body {
+  background: #d4d4d4 url("../images/background.png");
+  text-align: center;
+  font-family: sans-serif; }
+
+h1 {
+  color: rgba(0, 0, 0, .3);
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+section {
+  margin-top: 80px; 
+}
+
+.animate {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  background-color: coral;
+  /* The outline is for fix firefox */
+  outline: 1px solid transparent;
+
+  /*animation-name: square-to-circle;
+  animation-duration: 2s;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;*/
+
+  /*This is a shortcut for the code above*/
+  animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+}
+
+@-webkit-keyframes square-to-circle {
+  0% {
+    border-radius: 0 0 0 0;
+    background:coral;
+    transform:rotate(0deg);
+  }
+
+  25% {
+    border-radius: 50% 0 0 0;
+    background:darksalmon;
+    transform:rotate(45deg);
+  }
+
+  50% {
+    border-radius: 50% 50% 0 0;
+    background-color: indianred;
+    transform:rotate(90deg);
+  }
+
+  75% {
+    border-radius: 50% 50% 50% 0;
+    background:lightcoral;
+    transform:rotate(135deg);
+  }
+
+  100% {
+    border-radius: 50%;
+    background:darksalmon;
+    transform:rotate(180deg);
+  }
+}
