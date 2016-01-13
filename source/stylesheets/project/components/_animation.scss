@@ -1,0 +1,12 @@
+.spooky {
+  width: 15em;
+  height: 15em;
+  background: white;
+
+  .body {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    background: red;
+  }
+}
