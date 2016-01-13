@@ -1,11 +1,15 @@
 .spooky {
   width: 15em;
   height: 15em;
+  margin: 0 auto;
   background: white;
 
-  .body {
+  .head {
     width: 5em;
     height: 5em;
+    position: relative;
+    top: 2em;
+    left: 50%;
     border-radius: 100%;
     background: red;
   }
