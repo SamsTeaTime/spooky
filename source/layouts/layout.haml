@@ -12,12 +12,14 @@
     %meta{name: 'author', content:'Colorbox Design'}
 
   %body
+    .leftside
+    .rightside
     = partial "partials/ghost"
     = partial "partials/animation"
     / = yield
 
-  -#%script{type:"text/javascript", src:'//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'}
+  %script{type:"text/javascript", src:'//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'}
   -#%script{type:"text/javascript"}
     -#window.jQuery || document.write("javascripts/jQuery.min.js")
 
-  -#= javascript_include_tag 'all'
+  = javascript_include_tag 'all'

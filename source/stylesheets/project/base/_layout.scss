@@ -6,8 +6,15 @@ body {
 	margin: 0;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-  padding-top: 4em;
+.leftside {
+  width: 50%;
+  height: 10em;
+  float: left;
+  // background-color: red;
+}
+.rightside {
+  width: 50%;
+  height: 10em;
+  float: left;
+  // background-color: blue;
 }
