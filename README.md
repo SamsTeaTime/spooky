@@ -1,4 +1,2 @@
 # animation_easy
-Tryout with css animations
-
-Lets see if this works :)
+Tryout with pure css animations
