@@ -1,13 +1,12 @@
 body {
   background-color: #036;
-  // color: cl("blue");
 	padding: 0;
   padding-bottom: 30em;
 	margin: 0;
 }
 
 .leftside {
-  width: 50%;
+  width: 30%;
   height: 50em;
   float: left;
 
@@ -22,9 +21,9 @@ body {
   }
 }
 .rightside {
-  width: 50%;
+  width: 30%;
   height: 50em;
-  float: left;
+  float: right;
 
   &:hover {
     ~ #animation {

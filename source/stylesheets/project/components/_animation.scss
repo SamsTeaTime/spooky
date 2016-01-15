@@ -1,6 +1,7 @@
 #animation {
+  left: 0;
   position: relative;
-  left: transition 5s;
+  transition: left 1s ease;
 }
 .spooky { 
   position: absolute;
@@ -8,6 +9,7 @@
   left: 42%;
   margin: 0 auto;
   animation: float 3s ease-out infinite;
+  transition: left 1s ease;
 
   .eye {
     width: 3em;
