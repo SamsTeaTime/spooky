@@ -8,13 +8,31 @@ body {
 
 .leftside {
   width: 50%;
-  height: 10em;
+  height: 50em;
   float: left;
-  // background-color: red;
+
+  &:hover {
+    ~ #animation {
+      left: -10%;
+    }
+
+    ~ .spooky {
+      left: 32%;
+    }
+  }
 }
 .rightside {
   width: 50%;
-  height: 10em;
+  height: 50em;
   float: left;
-  // background-color: blue;
+
+  &:hover {
+    ~ #animation {
+      left: 10%;
+    }
+
+    ~ .spooky {
+      left: 52%;
+    }
+  }
 }
