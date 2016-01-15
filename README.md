@@ -1,2 +1,2 @@
-# animation_easy
+# Spooky animation
 Tryout with pure css animations
