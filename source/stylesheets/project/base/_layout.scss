@@ -11,6 +11,7 @@ body {
   float: left;
 
   &:hover {
+    // @include positionEyes(leftside);
     ~ #animation {
       left: -10%;
     }
@@ -26,6 +27,7 @@ body {
   float: right;
 
   &:hover {
+    // @include positionEyes(rightside);
     ~ #animation {
       left: 10%;
     }
