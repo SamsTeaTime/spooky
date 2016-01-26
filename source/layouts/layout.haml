@@ -1,22 +1,31 @@
 !!!
 %html
   %head
-    %title Animations
+    %title Portfolio Stef
     %meta{charset: 'UTF-8'}
 
     = stylesheet_link_tag 'main'
     %link{rel: "stylesheet", type: "text/css", href: "//cloud.typography.com/6846252/787664/css/fonts.css"}
 
-    %meta{name: 'description', content:'A page full of animation try outs'}
-    %meta{name: 'keywords', content:'Colorbox, Design, Animation'}
-    %meta{name: 'author', content:'Colorbox Design'}
+    %meta{name: 'description', content:''}
+    %meta{name: 'keywords', content:''}
+    %meta{name: 'author', content:''}
 
   %body
-    .leftside
-    .rightside
-    = partial "partials/ghost"
-    = partial "partials/animation"
-    / = yield
+    .container
+      %header
+        %h1 
+          Stef Kors
+        %ul
+          %li 
+            =link_to "Selected"
+          %li
+            =link_to "All projects"
+          %li
+            =link_to "Resume"
+      %section
+        %article
+          
 
   %script{type:"text/javascript", src:'//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'}
   -#%script{type:"text/javascript"}
