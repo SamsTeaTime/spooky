@@ -1,0 +1,19 @@
+.header {
+  padding-top: 5em;
+
+  ul {
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+
+    li {
+      float: left;
+      margin-right: 1em;
+      display: inline;
+
+      a {
+        display: block;
+      }
+    }
+  }
+}
